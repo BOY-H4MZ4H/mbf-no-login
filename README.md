@@ -1,18 +1,8 @@
-# INSTALL
 ```
-$ pkg upgrade
-$ pkg install python
-$ pip install rich
-$ pip install cython
-$ pip install requests
-```
-# DOWNLOAD REPOS
-```
+$ pkg install python git -y
+$ pip install bs4 cython requests futures
 $ git clone https://github.com/BOY-H4MZ4H/mbf-no-login
-```
-# RUN
-```
 $ cd $HOME/mbf-no-login
-$ ls
+$ cythonize -i mbf.c
 $ python run.py
 ```
